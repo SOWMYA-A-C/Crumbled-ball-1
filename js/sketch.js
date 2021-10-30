@@ -37,6 +37,6 @@ function draw(){
 function keyPressed(){
     if(keyCode === 32){
      console.log(trash)
-        Matter.Body.applyForce(trash.body,trash.body.position,{x:80,y:-80})
+        Matter.Body.applyForce(trash.body,trash.body.position,{x:0,y:0})
     }
 }
